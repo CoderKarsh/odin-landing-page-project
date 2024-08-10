@@ -1,0 +1,46 @@
+:root {
+  --ff-primary: "Raleway", sans-serif;
+
+  /* Font Sizes */
+  --fs-display: 3rem;
+  --fs-heading: 2.25rem;
+  --fs-quote: 2.25rem;
+  --fs-logo: 1.5rem;
+  --fs-enlarged-text: 1.125rem;
+  --fs-text: 1rem;
+
+  /* Font-weights */
+  --fw-heading: 800;
+  --fw-quote: 300;
+
+  /* Color Values*/
+  --color-neutraL-100: #e7f1fc;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-900: rgb(0, 8, 13);
+
+  --color-primary: #3882f6;
+
+  /* Color References */
+  --color-text: var(--color-neutral-900);
+  --color-hidden-text: var(--color-neutral-200);
+  --color-bg: var(--color-neutraL-100);
+  --color-accent-bg: var(--color-neutral-200);
+  --color-btn-bg: var(--color-primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-optical-sizing: auto;
+  font-family: var(--ff-primary);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
