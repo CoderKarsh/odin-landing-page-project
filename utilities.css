@@ -1,11 +1,11 @@
 .container-large {
-  padding-inline: 10rem;
+  padding-inline: 20rem;
 }
 .container-med {
-  padding-inline: 15rem;
+  padding-inline: 24rem;
 }
 .container-sm {
-  padding-inline: 18rem;
+  padding-inline: 28rem;
 }
 
 .section-padding-large {
@@ -18,4 +18,8 @@
 
 .section-padding-sm {
   padding-block: 1rem;
+}
+
+.text-with-image {
+  display: flex;
 }
