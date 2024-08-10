@@ -1,0 +1,21 @@
+.container-large {
+  padding-inline: 10rem;
+}
+.container-med {
+  padding-inline: 15rem;
+}
+.container-sm {
+  padding-inline: 18rem;
+}
+
+.section-padding-large {
+  padding-block: 4rem;
+}
+
+.section-padding-med {
+  padding-block: 2rem;
+}
+
+.section-padding-lsm {
+  padding-block: 1rem;
+}
